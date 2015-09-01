@@ -1,0 +1,21 @@
+{
+    "name": "markhewitt/php-utils",
+    "type": "library",
+    "description": "Utils",
+    "keywords": ["pwgen", "password", "token", "generator"],
+    "homepage": "https://github.com/mrhewitt/php-utils",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Mark Hewitt",
+            "email": "info@markhewitt.co.za"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {"MarkHewitt\\Util\\": "src/"}
+    }
+
+}
